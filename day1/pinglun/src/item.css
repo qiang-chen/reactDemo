@@ -1,0 +1,46 @@
+.item{
+    width: 100%;
+    height: 2rem;
+    border-bottom: 1px solid #ccc;
+    display: flex;
+    padding: .1rem;
+    box-sizing: border-box;
+}
+.left{
+    width: 25%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+}
+.left p{
+    width: 1.2rem;
+    height: 1.2rem;
+    background-color: red;
+    border-radius: 50%;
+}
+.mid{
+    width: 50%;
+    height: 100%;
+    padding-left: .2rem;
+    box-sizing: border-box;
+}
+.mid h4{
+    width: 100%;
+    height: 1rem;
+    line-height: 1rem;
+    font-size: .40rem;
+}
+.right{
+    width: 25%;
+    height: 100%;
+    font-size: .5rem;
+    text-align: center;
+}
+.right span{
+    display: inline-block;
+    height: 1rem;
+    line-height: 1rem;
+}
+.active{
+    color: red;
+}

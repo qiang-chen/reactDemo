@@ -1,0 +1,100 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+html,body{
+  width: 100%;
+  height: 100%;
+}
+html{
+  font-size: 13.333333vw;
+}
+#root{
+  width: 100%;
+  height: 100%;
+}
+.container{
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  font-size: .34rem;
+}
+header{
+  width: 100%;
+  height: 2rem;
+}
+.title{
+  width: 100%;
+  height: 1rem;
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: purple;
+}
+.nav{
+  width: 100%;
+  height: 1rem;
+  border-bottom: 1px solid #eee;
+  display: flex;
+  padding: 0 .15rem;
+  box-sizing: border-box;
+}
+.nav span{
+  width: 50%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+main{
+  flex: 1;
+  overflow: auto;
+  padding: 0 .15rem;
+  box-sizing: border-box;
+}
+main .item{
+  width: 100%;
+  height: 2.5rem;
+  border-bottom: 1px solid #eee;
+  display: flex;
+  padding: .4rem 0;
+  box-sizing: border-box;
+}
+.left{
+    width: 40%;
+    height: 100%;
+}
+img{
+  width: 100%;
+  height: 100%;
+}
+.right{
+  width: 60%;
+  height: 100%;
+  padding-left: .4rem;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction:column;
+}
+h4{
+    width: 100%;
+    height: 1rem;
+    text-align: left;
+    line-height: 1rem;
+    font-size: .42rem;
+}
+p{
+  font-size: .40rem;
+  color: orange;
+  font-weight: bolder;
+}
+footer{
+  width: 100%;
+  height: 1rem;
+  border-top: 1px solid #666;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}

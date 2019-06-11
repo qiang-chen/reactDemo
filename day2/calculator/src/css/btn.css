@@ -1,0 +1,16 @@
+.btnBox{
+    width: 100%;
+   display: flex;
+   flex-flow: row wrap;
+   justify-content: space-around;
+}
+
+.btn{
+    width: 20%;
+    height: 1.3rem;
+    background-color: #eee; 
+    margin: .15rem; 
+    font-size: .58rem;
+    text-align: center;
+    line-height: 1.3rem;
+}
