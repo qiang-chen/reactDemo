@@ -26,7 +26,7 @@ export default class Child extends React.Component {
         switch (true) {
             case nextProps.userId === this.props.userId&&nextState.user === this.state.user:
                 console.log("props",nextProps.userId,this.props.userId)
-                flag = false
+                flag = false;
                 break;
             // case nextState.user === this.state.user:
             //     console.log("state",nextState.user,this.state.user)

@@ -19,10 +19,10 @@ class App extends React.Component{
         <button onClick={()=>{
           console.log("父组件点击")
           this.setState({
-            userId:2
+            user:"李四"
           })
         }}>父点击改变props</button>
-        <Child userId={this.state.userId}></Child>
+        {/* <Child userId={this.state.userId}></Child> */}
         <NewChild user={this.state.user}></NewChild>
       </div>
     )

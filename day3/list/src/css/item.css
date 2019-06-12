@@ -1,0 +1,23 @@
+.item {
+  width: 100%;
+  height: 2.5rem;
+  border-bottom: 1px solid #000;
+  display: flex;
+  margin-top: .1rem;
+}
+
+.item:first-child {
+  margin-top: 0;
+}
+
+.item .left {
+  flex: 4;
+  height: 100%;
+  background-color: mediumaquamarine;
+}
+
+.item .right {
+  flex: 6;
+  height: 100%;
+  background-color: pink;
+}
