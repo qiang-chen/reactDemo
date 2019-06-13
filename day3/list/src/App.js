@@ -1,8 +1,11 @@
 import React from 'react';
 
 import './App.css';
-import Axios from 'axios';
+
 import List from "./components/list.jsx"
+
+import AA from "./components/aa"
+
 
 class APP extends React.Component{
   constructor(props){
@@ -14,7 +17,8 @@ class APP extends React.Component{
   render(){
     return (
       <div className="container">
-        <List list={this.state.list}></List>
+        {/* <List></List> */}
+        <AA></AA>
         <footer>
           <span>首页</span>
           <span>我的</span>
@@ -22,14 +26,6 @@ class APP extends React.Component{
         </footer>
       </div>
     )
-  }
-  componentDidMount(){
-    //在DOM生成后的生命周期函数发送ajax请求
-   Axios.get("http://localhost:3000/api/list").then(res=>{
-     this.setState({
-       list:res.data.data.list
-     })
-   })
   }
 }
 
