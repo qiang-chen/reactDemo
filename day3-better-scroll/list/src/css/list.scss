@@ -1,0 +1,34 @@
+.main {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    header {
+        width: 100%;
+        height: 1rem;
+        background-color: red;
+        color: #fff;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: .5rem;
+    }
+
+    .list {
+        flex: 1;
+        overflow: hidden;
+        position: relative;
+        &::before{
+            content:attr(down);
+            position: absolute;
+            left: 0;
+            top: 0;
+            width: 100%;
+            height: .6rem;
+            line-height: .6rem;
+            text-align: center;
+            background-color: mediumvioletred;
+            color: #fff;
+        }
+    }
+}
