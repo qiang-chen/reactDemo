@@ -28,10 +28,6 @@ export default class Child extends React.Component {
                 console.log("props",nextProps.userId,this.props.userId)
                 flag = false;
                 break;
-            // case nextState.user === this.state.user:
-            //     console.log("state",nextState.user,this.state.user)
-            //     flag = false;
-            //     break;
             default:
                 break;
         }
@@ -39,15 +35,19 @@ export default class Child extends React.Component {
         return flag;
     }
     componentWillUpdate(){
+        //更新之前触发
         console.log("componentWillUpdate")
     }
     componentDidUpdate(){
+         //更新之后触发
         console.log("componentDidUpdate")
     }
     componentWillReceiveProps(props){
+         //props发生改变
         console.log("componentWillReceiveProps",props)
     }
     componentWillUnmount(){
+         //销毁触发
         console.log("componentWillUnmount")
     }
 }
