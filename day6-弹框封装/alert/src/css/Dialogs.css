@@ -1,0 +1,19 @@
+.alert{
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    left: 0;
+    top: 0;
+    background-color: #000;
+    opacity: .4;
+}
+.alertBox{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    width: 90%;
+    box-sizing: border-box;
+    padding: 10px;
+    background-color: #fff;
+}
