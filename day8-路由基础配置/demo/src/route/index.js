@@ -1,8 +1,6 @@
-//import {BrowserRouter as Router,Route,Switch} from "react-router-dom";
+
 
 import Home from "../views/home.jsx"
-
-// import React from "react"
 
 import List from "@/views/list"
 import Tap1 from "../views/tap/Tap1.jsx";
