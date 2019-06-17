@@ -87,7 +87,4 @@ export default class list extends Component {
         })
         
     }
-    componentWillUnmount(){
-        //销毁阶段
-    }
 }
