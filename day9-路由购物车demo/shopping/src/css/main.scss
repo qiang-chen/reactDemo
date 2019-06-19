@@ -1,0 +1,38 @@
+
+.container{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    font-size: .34rem;
+}
+header{
+    width: 100%;
+    height: 1rem;
+    background-color: skyblue;
+    text-align: center;
+    line-height: 1rem;
+    color: #fff;
+    font-size: .44rem;      
+}
+
+main{
+    flex: 1;
+    overflow: auto;
+}
+footer{
+    width: 100%;
+    height: 1rem;
+    border-top: 1px solid #eee;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    a{
+        color: #000;
+        text-decoration: none;
+    }
+}
+
+.active{
+    color: red;
+}
