@@ -1,0 +1,1 @@
+.container{width:100%;height:100%;display:flex;flex-direction:column;font-size:.34rem}header{width:100%;height:1rem;background-color:red;color:#fff;text-align:center;line-height:1rem}main{flex:1;overflow:hidden}footer{width:100%;height:1rem;border-top:1px solid #eee;display:flex;justify-content:space-around;align-items:center}footer a{text-decoration:none;color:#4d4c4c}

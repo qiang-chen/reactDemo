@@ -1,0 +1,23 @@
+.ite {
+    width: 100%;
+    height: 50px;
+    display: flex;
+    border-bottom: solid 1px blue;
+}
+
+.ite div:nth-child(1) {
+    width: 15%;
+    height: 100%;
+    text-align: center;
+    line-height: 50px;
+}
+
+.ite div:nth-child(2) p:nth-child(1) {
+    font-weight: 700;
+    font-size: 16px;
+}
+
+.ite div:nth-child(2) p:nth-child(2) {
+    line-height: 30px;
+    font-size: 12px;
+}

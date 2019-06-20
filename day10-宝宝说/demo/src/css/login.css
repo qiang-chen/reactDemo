@@ -1,0 +1,44 @@
+header {
+  width: 100%;
+  height: 1rem;
+  background-color: skyblue;
+  color: #fff;
+  font-size: .45rem;
+  text-align: center;
+  line-height: 1rem;
+}
+
+.item {
+  width: 100%;
+  height: 1rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: .3rem;
+}
+
+.item input {
+  width: 80%;
+  height: .7rem;
+  padding-left: .1rem;
+  box-sizing: border-box;
+}
+
+.btn {
+  width: 100%;
+  height: 1rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.btn button {
+  width: 25%;
+  height: .7rem;
+  text-align: center;
+  line-height: .5rem;
+  background-color: red;
+  color: #fff;
+  border: 0;
+  border-radius: .1rem;
+}

@@ -1,0 +1,30 @@
+.watch {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.watch .nav {
+  width: 100%;
+  height: .8rem;
+  background-color: green;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  color: #fff;
+}
+
+.watch .nav a {
+  text-decoration: none;
+  color: #000;
+}
+
+.watch .nav .active {
+  color: #fff;
+}
+
+.watch .list {
+  flex: 1;
+  overflow: auto;
+}

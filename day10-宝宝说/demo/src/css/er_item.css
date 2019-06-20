@@ -1,0 +1,46 @@
+.er_item {
+    width: 100%;
+    height: 80px;
+    display: flex;
+    margin-top: 5px;
+}
+
+.er_item div:nth-child(1) {
+    width: 30%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.er_item div:nth-child(1) img {
+    width: 80%;
+    height: 80%;
+    border-radius: 10px;
+}
+
+.er_item div:nth-child(2) {
+    width: 50%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.er_item div:nth-child(2) p:nth-child(1) {
+    font-weight: 700;
+    font-size: 16px;
+}
+
+.er_item div:nth-child(2) p:nth-child(2) {
+    line-height: 30px;
+    font-size: 12px;
+}
+
+.er_item div:nth-child(3) {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: green;
+}

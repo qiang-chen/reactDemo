@@ -1,0 +1,40 @@
+.dong_item {
+    width: 46%;
+    height: 150px;
+    margin-top: .1rem;
+}
+
+.dong_item div:nth-child(1) {
+    width: 100%;
+    height: 100px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.dong_item div:nth-child(1) img {
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+}
+
+.dong_item div:nth-child(1) span {
+    position: absolute;
+    background: white;
+    right: 5px;
+    bottom: 5px;
+    color: red;
+    border-radius: 8px;
+}
+
+.dong_item div:nth-child(2) p:nth-child(1) {
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 28px;
+}
+
+.dong_item div:nth-child(2) p:nth-child(2) {
+    font-size: 12px;
+    line-height: 22px;
+}
