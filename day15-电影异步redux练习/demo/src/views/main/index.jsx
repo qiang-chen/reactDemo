@@ -10,16 +10,17 @@ import RouteView from "@/route/RouteView"
 
 import "@/css/main.scss"
 
+import Header from "@/components/header"
+
+import Show from "@/components/Show"
+
+
 export default class Main extends Component {
     render() {
         return (
             <div className="container">
-                <div className="header">
-                    <span>标题</span>
-                </div>
-                <div className="video">
-                    <video src={this.props.url.url_1} autoPlay controls></video>
-                </div>
+                <Header></Header>
+                <Show></Show>
                 <div className="xian"></div>
                 <div className="nav">
                     <span>
