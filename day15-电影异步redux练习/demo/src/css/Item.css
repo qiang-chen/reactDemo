@@ -1,0 +1,12 @@
+.item {
+  width: 30%;
+  height: .9rem;
+  background-color: #fff;
+  margin: .1rem;
+  text-align: center;
+  line-height: .9rem;
+}
+
+.item:active {
+  background-color: pink;
+}
