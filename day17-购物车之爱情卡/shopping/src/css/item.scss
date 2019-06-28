@@ -1,0 +1,53 @@
+
+%juzhong{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.item{
+    width: 43%;
+    height: 3rem;
+    border: solid 1px #ccc;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    margin: .3rem 0.1rem;
+    &:nth-child(even){
+        margin-right: .15rem;
+    }
+    h2{
+        flex: 4;
+        @extend %juzhong;
+    }
+    h4{
+        flex: 3;
+        @extend %juzhong;
+    }
+    >div{
+        flex: 3;
+        @extend %juzhong;
+        justify-content: space-around;
+        span{
+            width: .6rem;
+            height: .6rem;
+            background-color: mediumorchid;
+            color: #fff;
+            @extend %juzhong;
+            border-radius: 50%;
+            font-weight: bold;
+        }
+    }
+    p{
+        position: absolute;
+        top: 0;
+        right: 0;
+        width: .6rem;
+        height: .6rem;
+        border-radius: 50%;
+        line-height: .6rem;
+        text-align: center;
+        background-color: green;
+        color: #fff;
+        transform: translate(50%,-50%)
+    }
+}

@@ -1,0 +1,54 @@
+.container {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  font-size: .34rem;
+}
+
+.container .nav {
+  width: 100%;
+  height: 3rem;
+  padding: .3rem .12rem;
+  box-sizing: border-box;
+  border-bottom: 1px solid #000;
+  display: flex;
+  flex-flow: row nowrap;
+  overflow: auto;
+}
+
+.container .list {
+  flex: 1;
+  overflow: auto;
+}
+
+.container .list .listBox {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  padding: .1rem;
+  box-sizing: border-box;
+  display: flex;
+  flex-flow: wrap row;
+}
+
+.container .footer {
+  width: 100%;
+  height: 1rem;
+  background-color: red;
+  color: #fff;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  font-size: .38rem;
+}
+
+.container .footer button {
+  width: 1.4rem;
+  height: .7rem;
+  border-radius: .18rem;
+  background-color: green;
+  border: 0;
+  color: #fff;
+  font-size: .36rem;
+}
