@@ -1,0 +1,44 @@
+h1{
+    width: 100%;
+    font-size: .44rem;
+    border-bottom: 1px solid #000;
+    color: #555;
+}
+.exam{
+    padding: .2rem;
+    box-sizing: border-box;
+    h2{
+        color: red;
+    }
+    h4{
+        margin: .4rem 0;
+    }
+    .item{
+        margin: .2rem 0;
+        display: flex;
+        justify-content: space-around;
+        transition: all ease-in .2s;
+        span{
+            &:nth-child(1){
+                width: 1rem;
+                height: 1rem;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                border: solid 1px;
+                border-radius: 50%;
+            }
+            &:nth-child(2){
+                width: calc(100% - 1rem);
+                height: 1rem;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                
+            }
+        }
+        &.active{
+            background-color: red;
+        }
+    }
+}

@@ -1,0 +1,48 @@
+h1 {
+  width: 100%;
+  font-size: .44rem;
+  border-bottom: 1px solid #000;
+  color: #555;
+}
+
+.exam {
+  padding: .2rem;
+  box-sizing: border-box;
+}
+
+.exam h2 {
+  color: red;
+}
+
+.exam h4 {
+  margin: .4rem 0;
+}
+
+.exam .item {
+  margin: .2rem 0;
+  display: flex;
+  justify-content: space-around;
+  transition: all ease-in .2s;
+}
+
+.exam .item span:nth-child(1) {
+  width: 1rem;
+  height: 1rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: solid 1px;
+  border-radius: 50%;
+}
+
+.exam .item span:nth-child(2) {
+  width: calc(100% - 1rem);
+  height: 1rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.exam .item.active {
+  background-color: red;
+}

@@ -1,0 +1,29 @@
+.container {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  font-size: .34rem;
+}
+
+header {
+  width: 100%;
+  height: 1rem;
+  background: red;
+  color: #fff;
+}
+
+main {
+  flex: 1;
+  overflow: hidden;
+}
+
+footer {
+  width: 100%;
+  height: 1rem;
+  background: green;
+  color: #fff;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
